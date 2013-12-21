@@ -1,7 +1,7 @@
 docker-hipache
 ==============
 
-Dockerfile to build hipache -> Docker Index trusted builds
+Dockerfile to build hipache
 
 ```
 from ubuntu
