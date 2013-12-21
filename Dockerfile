@@ -1,9 +1,3 @@
-docker-hipache
-==============
-
-Dockerfile to build hipache -> Docker Index trusted builds
-
-```
 from ubuntu
 RUN	echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN	apt-get -y update
@@ -16,4 +10,3 @@ ADD	./config.json /usr/local/lib/node_modules/hipache/config/config.json
 EXPOSE	80
 EXPOSE	6379
 CMD	["supervisord", "-n"]
-```
